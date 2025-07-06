@@ -9,10 +9,5 @@ namespace Common
         //public int Quantity { get; set; }
 
 
-
-
-
-
-
     }
 }
