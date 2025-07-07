@@ -161,14 +161,34 @@ namespace AssOneOpp
             //Console.WriteLine("Distance = " + distance);
 
 
+            #endregion
+
+            #region 7.Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+        //    PersonQ7[] people = new PersonQ7[3];
+
+        //    for (int i = 0; i < 3; i++)
+        //    {
+        //        Console.Write($"Enter name of person {i + 1}: ");
+        //        people[i].Name = Console.ReadLine();
+        //        Console.Write($"Enter age of person {i + 1}: ");
+        //        people[i].Age = int.Parse(Console.ReadLine());
+        //    }
+
+        //    PersonQ7 oldest = people[0];
+        //    for (int i = 1; i < people.Length; i++)
+        //    {
+        //        if (people[i].Age > oldest.Age)
+        //        {
+        //            oldest = people[i];
+        //        }
+        //    }
+
+        //    Console.WriteLine($"Oldest Person: {oldest.Name}, Age: {oldest.Age}");
+        //}
         #endregion
 
-        #region 7.Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
-
-        #endregion
 
 
-
-        }
+    }
     }
 }
