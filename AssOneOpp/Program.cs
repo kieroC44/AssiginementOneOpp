@@ -1,4 +1,5 @@
-﻿using AssOneOpp.Structs;
+﻿using AssOneOpp.Enums;
+using AssOneOpp.Structs;
 
 namespace AssOneOpp
 {
@@ -9,49 +10,55 @@ namespace AssOneOpp
 
 
             #region Task
-            StructTask student;
+            //StructTask student;
 
-            Console.Write("Enter student name: ");
-            student.Name = Console.ReadLine();
+            //Console.Write("Enter student name: ");
+            //student.Name = Console.ReadLine();
 
-            Console.Write("Enter student grade (A, B, C, D, F): ");
-            string gradeInput = Console.ReadLine();
+            //Console.Write("Enter student grade (A, B, C, D, F): ");
+            //string gradeInput = Console.ReadLine();
 
 
-            if (gradeInput == "A" || gradeInput == "B" || gradeInput == "C" || gradeInput == "D" || gradeInput == "F")
-            {
-                Grade parsedGrade = (Grade)Enum.Parse(typeof(Grade), gradeInput);
-                student.Grade = parsedGrade;
+            //if (gradeInput == "A" || gradeInput == "B" || gradeInput == "C" || gradeInput == "D" || gradeInput == "F")
+            //{
+            //    Grade parsedGrade = (Grade)Enum.Parse(typeof(Grade), gradeInput);
+            //    student.Grade = parsedGrade;
 
-                Console.WriteLine($"\nStudent: {student.Name}");
-                Console.WriteLine($"Grade: {student.Grade}");
+            //    Console.WriteLine($"\nStudent: {student.Name}");
+            //    Console.WriteLine($"Grade: {student.Grade}");
 
-                switch (gradeInput) 
-                {
-                    case "A":
-                    case "B":
-                        Console.WriteLine("Message: Excellent");
-                        break;
-                    case "C":
-                        Console.WriteLine("Message: Good job");
-                        break;
-                    case "D":
-                        Console.WriteLine("Message: Needs improvement");
-                        break;
-                    case "F":
-                        Console.WriteLine("Message: Failed. Try again");
-                        break;
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid grade entered.");
-            }
+            //    switch (gradeInput) 
+            //    {
+            //        case "A":
+            //        case "B":
+            //            Console.WriteLine("Message: Excellent");
+            //            break;
+            //        case "C":
+            //            Console.WriteLine("Message: Good job");
+            //            break;
+            //        case "D":
+            //            Console.WriteLine("Message: Needs improvement");
+            //            break;
+            //        case "F":
+            //            Console.WriteLine("Message: Failed. Try again");
+            //            break;
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid grade entered.");
+            //}
             #endregion
 
 
             #region 1.Create an enum called "WeekDays" with the days of the week (Monday to Sunday) as its members. Then, write a C# program that prints out all the days of the week using this enum.
+            //Console.WriteLine("Days of the Week:\n");
 
+            //for (int i = 0; i <= 6; i++)
+            //{
+            //    WeekDays day = (WeekDays)i;
+            //    Console.WriteLine($"{i + 1}. {day}");
+            //}
             #endregion
 
             #region 2.Define a struct "Person" with properties "Name" and "Age". Create an array of three "Person" objects and populate it with data. Then, write a C# program to display the details of all the persons in the array.
