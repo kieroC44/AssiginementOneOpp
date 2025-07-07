@@ -82,7 +82,31 @@ namespace AssOneOpp
             #endregion
 
             #region 3.Create an enum called "Season" with the four seasons (Spring, Summer, Autumn, Winter) as its members. Write a C# program that takes a season name as input from the user and displays the corresponding month range for that season. Note range for seasons ( spring march to may , summer june to august , autumn September to November , winter December to February)
+            //Console.Write("Enter a season name (Spring, Summer, Autumn, Winter): ");
+            //string input = Console.ReadLine();
 
+            //if (Enum.TryParse(input, true, out SeasonQ3 season))
+            //{
+            //    switch (season)
+            //    {
+            //        case SeasonQ3.Spring:
+            //            Console.WriteLine("March to May");
+            //            break;
+            //        case SeasonQ3.Summer:
+            //            Console.WriteLine("June to August");
+            //            break;
+            //        case SeasonQ3.Autumn:
+            //            Console.WriteLine("September to November");
+            //            break;
+            //        case SeasonQ3.Winter:
+            //            Console.WriteLine("December to February");
+            //            break;
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid season name.");
+            //}
             #endregion
 
             #region 4.Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum. ⮚Create Variable from previous Enum to Add and Remove Permission from variable, check if specific Permission is existed inside variable
