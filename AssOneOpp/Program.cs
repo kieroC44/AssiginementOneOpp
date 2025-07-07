@@ -110,23 +110,38 @@ namespace AssOneOpp
             #endregion
 
             #region 4.Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum. ⮚Create Variable from previous Enum to Add and Remove Permission from variable, check if specific Permission is existed inside variable
+        //    PermissionsQ4 userPermissions = PermissionsQ4.Read | PermissionsQ4.Write;
 
-            #endregion
-
-            #region 5.Create an enum called "Colors" with the basic colors (Red, Green, Blue) as its members. Write a C# program that takes a color name as input from the user and displays a message indicating whether the input color is a primary color or not.
-
-            #endregion
-
-            #region 6.Create a struct called "Point" to represent a 2D point with properties "X" and "Y". Write a C# program that takes two points as input from the user and calculates the distance between them.
-
-            #endregion
-
-            #region 7.Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
-
-            #endregion
+        //    Console.WriteLine("Initial Permissions: " + userPermissions);
 
 
+        //    userPermissions |= PermissionsQ4.Delete;
+        //    Console.WriteLine("After Adding Delete: " + userPermissions);
 
-        }
+
+        //    userPermissions &= ~PermissionsQ4.Write;
+        //    Console.WriteLine("After Removing Write: " + userPermissions);
+
+
+        //    bool hasRead = (userPermissions & PermissionsQ4.Read) == PermissionsQ4.Read;
+        //    Console.WriteLine("Has Read Permission? " + hasRead);
+        //}
+        #endregion
+
+        #region 5.Create an enum called "Colors" with the basic colors (Red, Green, Blue) as its members. Write a C# program that takes a color name as input from the user and displays a message indicating whether the input color is a primary color or not.
+
+        #endregion
+
+        #region 6.Create a struct called "Point" to represent a 2D point with properties "X" and "Y". Write a C# program that takes two points as input from the user and calculates the distance between them.
+
+        #endregion
+
+        #region 7.Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+
+        #endregion
+
+
+
+    }
     }
 }
