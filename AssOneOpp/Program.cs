@@ -1,5 +1,6 @@
 ﻿using AssOneOpp.Enums;
 using AssOneOpp.Structs;
+using System;
 
 namespace AssOneOpp
 {
@@ -27,7 +28,7 @@ namespace AssOneOpp
             //    Console.WriteLine($"\nStudent: {student.Name}");
             //    Console.WriteLine($"Grade: {student.Grade}");
 
-            //    switch (gradeInput) 
+            //    switch (gradeInput)
             //    {
             //        case "A":
             //        case "B":
@@ -62,7 +63,22 @@ namespace AssOneOpp
             #endregion
 
             #region 2.Define a struct "Person" with properties "Name" and "Age". Create an array of three "Person" objects and populate it with data. Then, write a C# program to display the details of all the persons in the array.
+            //PersonQ2[] people = new PersonQ2[3];
 
+            //for (int i = 0; i < people.Length; i++)
+            //{
+            //    Console.Write($"Enter name of person {i + 1}: ");
+            //    people[i].Name = Console.ReadLine();
+
+            //    Console.Write($"Enter age of person {i + 1}: ");
+            //    people[i].Age = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("\nPeople info:");
+            //foreach (PersonQ2 p in people)
+            //{
+            //    Console.WriteLine($"Name: {p.Name}, Age: {p.Age}");
+            //}
             #endregion
 
             #region 3.Create an enum called "Season" with the four seasons (Spring, Summer, Autumn, Winter) as its members. Write a C# program that takes a season name as input from the user and displays the corresponding month range for that season. Note range for seasons ( spring march to may , summer june to august , autumn September to November , winter December to February)
