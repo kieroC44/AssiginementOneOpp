@@ -1,6 +1,7 @@
 ﻿using Common;
 using Demo.Enums.Example1;
 using Demo.Enums.Example2;
+using Demo.Enums.Example3;
 using System;
 namespace Demo
 {
@@ -143,10 +144,89 @@ namespace Demo
 
 
 
-        #endregion
+            #endregion
+
+            #region Permission enum
+            //User user1 = new User();
+            //user1.Id = 10;
+            ////Write read delete execute
+            //user1.Permissions[0] = true;
+            //user1.Permissions[1] = false;
+            //user1.Permissions[2] = true;
+            //user1.Permissions[3] = false;
+            ////Id : int == > 4 bytes , 4bytes == > 8 bytes
+            //User user2 = new User();
+            //user2.Id = 10;
+            ////Write read delete execute
+            //user2.Permissions[0] = true;
+            //user2.Permissions[1] = false;
+            //user2.Permissions[2] = true;
+            //user2.Permissions[3] = false;
+            //8 bytes
+
+
+            //User user = new User();
+            //user.Id = 1;
+            //user.Permissions = Permissions. Delete;
+            //Console.WriteLine(user.Permissions);
+            //user.Permissions = Permissions. Read;
+            //Console.WriteLine(user.Permissions);
+
+            /*
+              Write = 0b_0000_0001, //1
+              Read = 2, // 2
+              Delete = 4,//4
+              Execute = 8//8
+            */
+
+            //User user = new User();
+            //user.Id = 1;
 
 
 
-    }
+            //user.Permissions = user.Permissions ^ Permissions.Delete;
+
+            //Console.WriteLine(user.Permissions);
+            //user.Permissions = user.Permissions ^ Permissions.Delete;
+            //Console.WriteLine(user.Permissions); // Write , delete
+
+
+            //& == > check if permission exist or not
+            //Permissions permission = user.Permissions & Permissions.Delete;
+            //Console.WriteLine(permission);
+            //if((user.Permissions & Permissions. Delete) == Permissions.Delete
+            //Console.WriteLine("Permission delete already exist");
+            //else
+            //{
+            //    user.Permissions ^= Permissions.Delete;
+            //    Console.WriteLine("Permission added");
+            //}
+            //Console.WriteLine(user.Permissions)
+
+
+
+            //Or => add permission if not exist
+            // == > Permission exist [Keep]
+            //user.Permissions = (Permissions)1;
+            //Console.WriteLine(user.Permissions);
+            //user.Permissions |= Permissions.Read;
+            //Console.WriteLine(user.Permissions);
+
+
+
+            //XOR == > IF Permission Not Exist [Add]
+            //  == > IF Permission Exist[Remove]
+
+            //user.Permissions = (Permissions)15;
+            //Console.WriteLine(user.Permissions);
+            //Bitwise operators [| , & , ^]
+
+            //Permissions permissions;
+            //permissions = Permissions.Delete | Permissions.Read;
+            //Console.WriteLine(permissions);
+
+            #endregion
+
+        }
     }
 }
