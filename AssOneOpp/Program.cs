@@ -1,6 +1,7 @@
 ﻿using AssOneOpp.Enums;
 using AssOneOpp.Structs;
 using System;
+using System.Drawing;
 
 namespace AssOneOpp
 {
@@ -144,11 +145,27 @@ namespace AssOneOpp
 
             #region 6.Create a struct called "Point" to represent a 2D point with properties "X" and "Y". Write a C# program that takes two points as input from the user and calculates the distance between them.
 
-            #endregion
+            //PointQ6 p1, p2;
 
-            #region 7.Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+            //Console.WriteLine("Enter Point 1 (x y): ");
+            //string[] input1 = Console.ReadLine().Split();
+            //p1.X = double.Parse(input1[0]);
+            //p1.Y = double.Parse(input1[1]);
 
-            #endregion
+            //Console.WriteLine("Enter Point 2 (x y): ");
+            //string[] input2 = Console.ReadLine().Split();
+            //p2.X = double.Parse(input2[0]);
+            //p2.Y = double.Parse(input2[1]);
+
+            //double distance = Math.Sqrt(Math.Pow(p2.X - p1.X, 2) + Math.Pow(p2.Y - p1.Y, 2));
+            //Console.WriteLine("Distance = " + distance);
+
+
+        #endregion
+
+        #region 7.Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+
+        #endregion
 
 
 
