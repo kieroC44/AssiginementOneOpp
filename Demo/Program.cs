@@ -1,5 +1,6 @@
 ﻿using Common;
 using Demo.Enums.Example1;
+using Demo.Enums.Example2;
 using System;
 namespace Demo
 {
@@ -76,6 +77,76 @@ namespace Demo
 
             #endregion
 
-        }
+            #region Enum Ex 3 [Grade , Gender , Branch]
+            //User user; // Reference
+            //user = new User()
+            //{
+            //    Id = 1,
+            //    Name = "Kiero",
+            //    Gender = Gender.Male,
+            //    Grade = Grades.A,
+            //    Branch = Branch.Dokki
+
+            //};
+            //Console.WriteLine(user.Grade);
+            //Console.WriteLine(user.Gender);
+            //Console.WriteLine(user.Branch);
+
+            //User user = new User();
+            //Console.WriteLine("Please enter the student info");
+
+            //int stdId;
+            //bool isParsed;
+            //do
+            //{
+            //    Console.WriteLine("Please enter the valid student id");
+            //    isParsed = int.TryParse(Console.ReadLine(), out stdId); //string?
+            //} while (!isParsed);
+            //Console.WriteLine("Please enter the valid name");
+            //user.Name = Console.ReadLine();
+            ////Gender , Grade , Branch
+            //object? gender;
+            //do
+            //{ 
+
+            //    Console.WriteLine("Please enter a valid gender [Male/Female]");
+            //    isParsed = Enum.TryParse(typeof(Gender), Console.ReadLine(), true, out gender);
+
+            //} while (!isParsed);
+            //    Grades grade;
+            //do
+            //{
+            //    Console.WriteLine("Please enter a valid grade");
+            //    isParsed = Enum.TryParse<Grades>(Console.ReadLine(), true, out grade);
+
+            //} while (!isParsed);
+
+            //Console.WriteLine("Please enter a valid branch");
+            //Branch branch;
+
+            //do
+            //{ 
+            //    Console.WriteLine("Please enter a valid branch");
+            //    isParsed = Enum.TryParse(Console.ReadLine(), out branch);
+
+            //} while (!isParsed);
+            //  user.Id = stdId;
+            //  user.Grade = grade;
+            //  user.Branch = branch;
+            //  user.Gender = (Gender) gender;
+
+            //   Console.Clear();
+            //   Console.WriteLine($"Hello {user.Id} , {user. Name}");
+            //   Console.WriteLine($"Your gender {user.Gender}");
+            //   Console.WriteLine($"Your grade {user. Grade}");
+            //   Console.WriteLine($"Your branch {user.Branch}");
+
+
+
+        #endregion
+
+
+
+    }
     }
 }
