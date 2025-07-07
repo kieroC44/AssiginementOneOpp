@@ -2,6 +2,7 @@
 using Demo.Enums.Example1;
 using Demo.Enums.Example2;
 using Demo.Enums.Example3;
+using Demo.Structs;
 using System;
 namespace Demo
 {
@@ -226,6 +227,49 @@ namespace Demo
             //Console.WriteLine(permissions);
 
             #endregion
+
+            #region Struct Ex1
+            //Point p1;
+            ////Variable [Value type]
+            //p1 = new Point();
+            ////new == > Value type [Constructor selection]
+            //Console.WriteLine(p1.X);
+            //Console.WriteLine(p1.Y);
+
+
+            //Point p2 = new Point(100);
+            //Console.WriteLine(p2.ToString()); //Performance [Better]
+            //Console.WriteLine(p2); //p2 [Value type] == > Object [Slower]
+            //Console.WriteLine(p2.X);
+            //Console.WriteLine(p2.Y);
+            #endregion
+
+            #region Struct Ex 2
+            //Point p1 = new Point() { X = 10, Y = 20 };
+            //Point p2 = new Point() { X = 30, Y = 40 };
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+            //p2 = p1;
+            ////p1 [10 , 20] , p2 [10 ,20]
+            //Console.WriteLine();
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+            //Console.WriteLine();
+            //p1.X = 100;
+            //p1.Y = 200;
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+
+
+            #endregion
+
+
+
+
+
+
+
+
 
         }
     }
